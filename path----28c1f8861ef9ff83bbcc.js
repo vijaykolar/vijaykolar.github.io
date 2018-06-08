@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{98:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Vijay Kolar",description:"UI Designer and UI Developer",url:"https://www.vijaykolar.com",keywords:"Ui Designer, UI developer, portfolio, personal website"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----28c1f8861ef9ff83bbcc.js.map
