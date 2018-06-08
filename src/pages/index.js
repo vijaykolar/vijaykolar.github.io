@@ -14,7 +14,7 @@ const IndexPage = () => (
         </h5>
 
         <h3 className="bold">
-          UI engineer with 2 years' experience building products
+          UI engineer with 3 years' experience building products
           for with a leading design company, an early stage fitness start up.
         </h3>
 

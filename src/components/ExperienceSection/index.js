@@ -32,7 +32,7 @@ class ExperienceSection extends React.Component {
             colour='#ffffff'
             title='Globussoft'
             link='https://globussoft.com'
-            timeperiod='2016'
+            timeperiod='2015'
             subtitle='Worked as UI design cum developer. Designed Android and iOS apps using photoshop.'
           />
           
