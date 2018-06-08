@@ -21,6 +21,7 @@ module.exports = {
     title: 'Vijay Kolar',
     description: 'UI Designer and UI Developer',
     keywords: 'Ui Designer, UI developer, portfolio, personal website',
-    url: 'https://www.vijaykolar.com'
+    url: 'https://www.vijaykolar.com',
+    themecolor: '#5D6D7E'
   }
 };
