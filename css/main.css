@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap");
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #11161d;
+}
+
+body * {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  padding: 0.825rem;
+  margin: auto;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #0a0;
+  letter-spacing: -1px;
+  margin: 1.25rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  color: #ccc;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.cursor {
+  -webkit-animation: 1s blink step-end infinite;
+          animation: 1s blink step-end infinite;
+}
+
+a {
+  color: #0a0;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  padding: 0.5rem 0;
+  display: inline-block;
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #0a0;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #0a0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.wb-body {
+  background-color: #11161d;
+  color: white;
+  padding: 1.25rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.skills__list {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.skills__list:last-child {
+  border-left: 0;
+}
+
+.skills__category {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+}
+
+.skills-menu__list {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  font-size: 0.875rem;
+}
+
+.skills-menu__list:last-child {
+  border-bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */
